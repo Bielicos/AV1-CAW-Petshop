@@ -1,0 +1,11 @@
+.root {
+    --cor-base: white;
+}
+
+h1 {
+    color: var(--cor-base);
+}
+
+h2 {
+    color: var(--cor-base);
+}

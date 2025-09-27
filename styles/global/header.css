@@ -70,7 +70,9 @@ header {
     color: var(--font-color-1);
 }
 
-.header__section2 div span a {
+.header__section2 div span a,
+.header__section2 div a:hover {
     color: var(--font-color-hover);
     text-decoration: underline;
 }
+

@@ -1,11 +1,6 @@
+
 :root {
   font-size: 62.5%;
-  /*
-    62.5% de 16px = 10px, 
-    ou seja, 
-    1 rem tem 10 pixels 
-  */
-
   font-family: 'Poppins', Arial;
 
   --bg-color-1: #FFFFFF;
@@ -16,8 +11,7 @@
   --font-color-hover: orange;
 }
 
-body,
-html {
+html, body {
   height: 100%;
   margin: 0;
 }
@@ -26,4 +20,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  /* evita pequenos deslocamentos que alteram 100vh */
+  box-sizing: border-box;
 }

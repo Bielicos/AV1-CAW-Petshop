@@ -1,79 +1,82 @@
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    width: 100%;
-    
-    gap: 1.6rem;
-    margin-top: 1rem;
-    margin-bottom: 2%;
+  flex: 0 0 30vh;
+  height: 30vh;
+  width: 100%;
+
+  gap: 2vh;
+
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .header__section1,
 .header__section2 {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: auto;
 }
 
 .header__section1 {
-    gap: 2.4rem;
+  gap: 2.4rem;
 }
 
 .header__section1 div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
 }
 
-.header__section1 div .phone__icon {
-    width: 1.9rem;
-    height: 1.9rem;
+.header__section1 div .phone__icon { 
+    width: 1.9rem; height: 1.9rem; 
 }
 
-.header__section1 div .email__icon {
-    width: 2.0rem;
-    height: 1.6rem;
-}
+.header__section1 div .email__icon { 
+    width: 2.0rem; height: 1.6rem;
+ }
 
-.header__section1 div span {
-    font-size: 1.6rem;
-    font-weight: 400;
-}
+.header__section1 div span { 
+    font-size: 1.6rem; font-weight: 400;
+ }
 
 .header__section2 {
-    width: 80%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--bg-color-1);
-    border-radius: 4rem;
-    box-shadow: 0px 16px 12px 0px rgba(0, 0, 0, 0.03);
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color-1);
+  border-radius: 4rem;
+  box-shadow: 0px 16px 12px 0px rgba(0, 0, 0, 0.03);
+
+  padding: 1.6rem 2rem;
+  box-sizing: border-box;
 }
 
-.header__section2 div {
-    margin: 2.8rem 4rem;
+.header__section2 div { 
+    margin: 0.8rem 1.2rem; 
 }
 
-.header__section2 div span {
-    font-size: 2rem;
-    font-weight: 700;
-    padding-left: 0.3rem;
+.header__section2 div span { 
+    font-size: 2rem; font-weight: 700; padding-left: 0.3rem; 
 }
 
 .header__section2 div a,
 .header__section2 div span a {
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 3.4rem;
-    text-decoration: none;
-    color: var(--font-color-1);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 3.4rem;
+  text-decoration: none;
+  color: var(--font-color-1);
 }
-
 .header__section2 div span a,
 .header__section2 div a:hover {
-    color: var(--font-color-hover);
-    text-decoration: underline;
+  color: var(--font-color-hover);
+  text-decoration: underline;
 }
-

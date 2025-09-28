@@ -1,0 +1,10 @@
+.main__section3 {
+    margin-top: 9vh;
+}
+
+.main__section3 iframe {
+    width: 80vw;
+    height: 42rem;
+    border-radius: 1rem;
+    border: none;
+}

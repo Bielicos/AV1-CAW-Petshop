@@ -1,0 +1,120 @@
+.main__section2 {
+    width: 80vw;
+    margin-top: 9vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__section2__div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    background-color: var(--bg-color-2);
+    padding: 4rem;
+    border-radius: 2rem;
+}
+
+.main__section2__div1__username {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+}
+
+.main__section2__div1__username div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__section2__div1__username div label,
+.main__section2__div1__email label,
+.main__section2__div1__message label {
+    font-weight: 550;
+    color: var(--font-color-1);
+    font-size: 1.6rem;
+}
+
+.main__section2__div1__username div input,
+.main__section2__div1__email input,
+.main__section2__div1__message textarea {
+    display: flex;
+    padding: 0.9rem 1.6rem;
+    border-radius: 1rem;
+    border: solid 0.01rem;
+    margin-top: 0.4rem;
+
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+
+.main__section2__div1__username div input {
+    width: 18rem;
+}
+
+.main__section2__div1__email input {
+    width: 41.4rem;
+}
+
+.main__section2__div1__message textarea {
+    width: 41.4rem;
+    height: 10rem;
+}
+
+.main__section2__div1__button {
+    margin-top: 1.6rem;
+}
+
+.main__section2__div1__button a {
+    font-size: 1.6rem;
+    font-weight: 550;
+    text-decoration: none;
+
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    color: var(--font-color-1);
+    background-color: var(--font-color-hover);
+    border-radius: 0.8rem;
+}
+
+.main__section2__div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.main__section2__div2__title {
+    font-size: 4rem;
+    font-weight: 550;
+    line-height: 4.8rem;
+    color: var(--font-color-1);
+}
+
+.main__section2__div2__subtitle {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--font-color-1);
+}
+
+.main__section2__div2__data {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.main__section2__div2__data div {
+    font-size: 2rem;
+    font-weight: 550;
+    color: var(--font-color-1);
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.main__section2__div2__data div img {
+    background-color: var(--font-color-hover);
+    padding: 0.8rem;
+    border-radius: 50%;
+}

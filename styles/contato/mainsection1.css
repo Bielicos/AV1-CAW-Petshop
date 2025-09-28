@@ -71,9 +71,3 @@ main {
     justify-content: flex-end;
     margin-right: 5vw;
 }
-
-.main__section2 {
-    width: 80vw;
-    margin-top: 2rem; /* separa visualmente do section1 */
-    flex: 1;
-}

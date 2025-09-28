@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./styles/contato/mainsection2.css">
     <link rel="stylesheet" href="./styles/contato/mainsection3.css">
 
+    <!-- Javascript -->
+    <link rel="stylesheet" href="./script/contato/style.css">
+
     <!-- Global -->
     <link rel="stylesheet" href="./styles/global/header.css">
     <link rel="stylesheet" href="./styles/global/footer.css">
@@ -78,29 +81,29 @@
             </div>
         </section>
         <section class="main__section2">
-            <div class="main__section2__div1">
+            <form id="contact_form" class="main__section2__div1">
                 <div class="main__section2__div1__username">
                     <div>
-                        <label for="Sobrenome">Nome</label>
-                        <input type="text" id="last_name_input">
+                        <label for="first_name_input">Nome</label>
+                        <input type="text" id="first_name_input">
                     </div>
                     <div>
-                        <label for="Sobrenome">Sobrenome</label>
+                        <label for="last_name_input">Sobrenome</label>
                         <input type="text" id="last_name_input">
                     </div>
                 </div>
                 <div class="main__section2__div1__email">
-                    <label for="Email">Seu melhor email</label>
+                    <label for="email_input">Seu melhor email</label>
                     <input type="email" id="email_input">
                 </div>
                 <div class="main__section2__div1__message">
-                    <label for="Mensagem">Diga sua mensagem</label>
-                    <textarea name="Mensagem" id="message_textarea"></textarea>
+                    <label for="message_textarea">Diga sua mensagem</label>
+                    <textarea id="message_textarea"></textarea>
                 </div>
                 <div class="main__section2__div1__button">
-                    <a href="">Enviar mensagem!</a>
+                    <button type="submit" id="form_button">Enviar mensagem!</button>
                 </div>
-            </div>
+            </form>
 
             <div class="main__section2__div2">
                 <div class="main__section2__div2__title">
@@ -194,5 +197,8 @@
                 </div>
             </section>
     </footer>
+
+    <script src="./script/contato/script.js">
+    </script>
 </body>
 </html>

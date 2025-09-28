@@ -1,0 +1,35 @@
+.input-error {
+  outline: 2px solid #e74c3c;
+  box-shadow: 0 0 0 3px rgba(231,76,60,0.08);
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.form-toast {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #2ecc71;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  z-index: 9999;
+  font-weight: 600;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(-6px) }
+  50% { transform: translateX(6px) }
+  75% { transform: translateX(-4px) }
+  100% { transform: translateX(0) }
+}
+.shake {
+  animation: shake 360ms;
+}

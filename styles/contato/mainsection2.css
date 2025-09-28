@@ -65,7 +65,7 @@
     margin-top: 1.6rem;
 }
 
-.main__section2__div1__button a {
+.main__section2__div1__button button {
     font-size: 1.6rem;
     font-weight: 550;
     text-decoration: none;
@@ -74,6 +74,8 @@
     color: var(--font-color-1);
     background-color: var(--font-color-hover);
     border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
 }
 
 .main__section2__div2 {

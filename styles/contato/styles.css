@@ -37,7 +37,8 @@ main {
     line-height: 6.5rem;
 }
 
-.main__section1__div1__title__planetapet {
+.main__section1__div1__title__planetapet,
+.main__section1__div1__subtitle span {
     font-size: 1.6rem;
     color: var(--font-color-hover);
     font-weight: 700;
@@ -63,4 +64,10 @@ main {
     background-color: var(--font-color-1);
     padding: 1rem 2.5rem 1rem 2.5rem;
     border-radius: 1.2rem;
+}
+
+.main__section1__div2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
 }

@@ -73,3 +73,7 @@ main {
    
 }
 
+.main__section1__div2 img {
+    width: 35rem;
+    height: auto;
+}

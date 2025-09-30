@@ -138,7 +138,7 @@
     height: 30rem;
 }
 
-/* ================= SEÇÃO 2 (Ícones) ================= */
+/* ================= SEÇÃO 2 (Ícones e texto) ================= */
 .main__section2 {
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@
     text-align: center;
 }
 
-.main__section2 div {
+.main__section2 .valor-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,9 +159,10 @@
     background-color: transparent;
     transition: transform 0.3s ease;
     cursor: pointer;
+    max-width: 200px; /* Garante que os itens não fiquem muito largos */
 }
 
-.main__section2 div:hover {
+.main__section2 .valor-item:hover {
     transform: translateY(-5px);
 }
 
@@ -169,13 +170,20 @@
     display: none;
 }
 
-.main__section2 img {
-    width: 80px;
-    height: 80px;
+.main__section2 .valor-icon {
+    width: 100px; /* Aumenta o tamanho das imagens */
+    height: 100px;
     object-fit: contain;
 }
 
-.main__section2 div span {
+.main__section2 .valor-titulo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--font-color-1);
+    margin-top: 1rem;
+}
+
+.main__section2 .valor-texto {
     font-size: 1.4rem;
     color: var(--font-color-2);
     font-weight: 500;

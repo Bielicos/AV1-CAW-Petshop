@@ -1,4 +1,4 @@
-/* ================= SEÇÃO DE PRODUTOS EM DESTAQUE ================= */
+
 .featured-products {
     text-align: center;
     margin: 8rem auto;
@@ -72,7 +72,6 @@
     font-weight: 500;
 }
 
-/* ================= SEÇÃO 1 ================= */
 .main__section1 {
     display: flex;
     flex-direction: row;
@@ -138,7 +137,6 @@
     height: 30rem;
 }
 
-/* ================= SEÇÃO 2 (Ícones e texto) ================= */
 .main__section2 {
     display: flex;
     justify-content: center;
@@ -189,7 +187,6 @@
     font-weight: 500;
 }
 
-/* ================= SEÇÃO 3 ================= */
 .main__section3 {
     width: 80vw;
     margin: 6rem auto;
@@ -227,12 +224,10 @@
     box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
 }
 
-/* Estilo para o item em promoção */
 .main__section3 div > div.promocao {
     border: 2px solid #FF5733;
 }
 
-/* Adiciona um selo de promoção */
 .main__section3 div > div.promocao::before {
     content: "Promoção!";
     position: absolute;
@@ -265,7 +260,6 @@
     color: var(--font-color-hover);
 }
 
-/* ================= SEÇÃO 4 ================= */
 .main__section4 {
     width: 100%;
     background-color: #fafafa;
@@ -333,7 +327,6 @@
     background-color: var(--font-color-hover);
 }
 
-/* ================= FOOTER ================= */
 footer {
     width: 100%;
     background-color: #f1f1f1;
